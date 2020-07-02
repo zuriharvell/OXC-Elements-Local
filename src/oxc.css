@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+@font-face {
+  font-family: lato-semibold;
+  src: url(Lato-SemiBold.ttf);
+}
+
+*,
+:after,
+:before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Lato, sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Desktop-specific CSS*/
+@media screen and (min-width: 992px) {
+  h1,
+  .h1 {
+    font-family: Lato-Light, Lato, sans-serif;
+    font-size: 50px;
+    line-height: 58px;
+    color: #6c3b96;
+    font-weight: 300;
+  }
+
+  h2,
+  .h2 {
+    font-family: Lato-Light, Lato, sans-serif;
+    font-size: 40px;
+    color: #54545c;
+    font-weight: 300;
+  }
+
+  h3,
+  .h3 {
+    font-size: 20px;
+    color: #37a1b9;
+    font-weight: 400;
+  }
+
+  h4,
+  .h4 {
+    font-family: Lato-Semibold, Lato, sans-serif;
+    font-size: 16px;
+    color: #54545c;
+    font-weight: 600;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 25px;
+    color: #54545c;
+    font-weight: 400;
+  }
+}
+
+textarea {
+  font-size: 16px;
+  line-height: 25px;
+  color: #54545c;
+  font-weight: 400;
+}
+
+p,
+textarea,
+button {
+  font-family: Lato-Regular, Lato, sans-serif;
+}
+
+input {
+  width: 380px;
+  padding: 10px;
+  border-radius: 4px;
+  font-family: Lato-semibold;
+  font-size: 1.2em;
+  color: #54545c;
+}
+
+label {
+  font-size: 16px;
+  color: #54545c;
+}
+
+[class^='col-'] .grid {
+  margin: 0px !important;
+}
+
+.ReactTable .rt-tbody {
+  overflow-x: hidden !important;
+}
+
+.popup-content > div:first-child {
+  background: rgb(108, 59, 150) !important;
+}
+
+.popup-content {
+  position: absolute;
+  z-index: 2;
+  width: 100px;
+  background: rgb(255, 255, 255);
+  padding: 5px;
+  top: 28px;
+  left: -10px;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.popup-content > div.modal {
+  z-index: 2 !important;
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  bottom: 0 !important;
+  right: 0 !important;
+}
+
+button#cancelApp.button {
+  margin-left: 26% !important;
+  margin-right: 20px !important;
+  padding-right: 15px !important;
+  padding-left: 15px !important;
+  margin-bottom: 40px !important;
+}
+
+button#cancelButton.button {
+  margin-left: 17% !important;
+  margin-right: 20px !important;
+  padding-right: 15px !important;
+  padding-left: 15px !important;
+  margin-bottom: 40px !important;
+}
+
+button#cancelAppPersonOverview.button {
+  margin-left: 17% !important;
+  margin-right: 20px !important;
+  padding-right: 15px !important;
+  padding-left: 15px !important;
+  margin-bottom: 40px !important;
+}
+
+div#cancel-application-modal > div.dialog-content {
+  left: 28% !important;
+}
+
+button#cancelPrapp.button {
+  margin-left: 17% !important;
+  margin-right: 20px !important;
+  padding-right: 15px !important;
+  padding-left: 15px !important;
+  margin-bottom: 40px !important;
+}
+
+/* Phone-specific CSS*/
+@media screen and (max-width: 767px) {
+  body {
+    background-color: #ffffff;
+  }
+
+  h1,
+  .h1 {
+    font-family: Lato-Regular, Lato, sans-serif;
+    font-size: 24px;
+    color: #6c3b96;
+    font-weight: 300;
+  }
+
+  h2,
+  .h2 {
+    font-family: Lato-Light, Lato, sans-serif;
+    font-size: 20px;
+    color: #54545c;
+    font-weight: 300;
+  }
+
+  h3,
+  .h3 {
+    font-family: Lato-Regular, Lato, sans-serif;
+    font-size: 20px;
+    color: #37a1b9;
+    font-weight: 400;
+  }
+
+  h4,
+  .h4 {
+    font-family: Lato-Semibold, Lato, sans-serif;
+    font-size: 16px;
+    color: #54545c;
+    font-weight: 600;
+  }
+
+  p {
+    font-family: Lato-Regular, Lato, sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    color: #54545c;
+    font-weight: 400;
+  }
+
+  textarea {
+    font-size: 16px;
+    line-height: 25px;
+    color: #54545c;
+    font-weight: 400;
+  }
+
+  p,
+  textarea,
+  button {
+    font-family: Lato-Regular, Lato, sans-serif;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: Lato-semibold;
+    font-size: 1.2em;
+    color: #54545c;
+  }
+
+  label {
+    font-size: 16px;
+    color: #54545c;
+  }
+}
+
+/* Tablet-specific CSS*/
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  body {
+    font-family: Lato, sans-serif;
+    background-color: #f9f9f9;
+  }
+
+  h1,
+  .h1 {
+    font-family: Lato-Light, Lato, sans-serif;
+    font-size: 37px;
+    line-height: 58px;
+    color: #6c3b96;
+    font-weight: 300;
+  }
+
+  h2,
+  .h2 {
+    font-family: Lato-Light, Lato, sans-serif;
+    font-size: 30px;
+    color: #54545c;
+    font-weight: 300;
+  }
+
+  h3,
+  .h3 {
+    font-size: 20px;
+    color: #37a1b9;
+    font-weight: 400;
+  }
+
+  h4,
+  .h4 {
+    font-family: Lato-Semibold, Lato, sans-serif;
+    font-size: 16px;
+    color: #54545c;
+    font-weight: 600;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 25px;
+    color: #54545c;
+    font-weight: 400;
+  }
+
+  textarea {
+    font-size: 16px;
+    line-height: 25px;
+    color: #54545c;
+    font-weight: 400;
+  }
+
+  p,
+  textarea,
+  button {
+    font-family: Lato-Regular, Lato, sans-serif;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: Lato-semibold;
+    font-size: 1.2em;
+    color: #54545c;
+  }
+
+  label {
+    font-size: 16px;
+    color: #54545c;
+  }
+}
