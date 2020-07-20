@@ -1,5 +1,4 @@
 @import './oxc.css';
-@import './oxcvars.css';
 
 /* Documentation site component styles */
 .example {
@@ -36,4 +35,9 @@ td {
 
 .componentpage {
   margin-left: 275px;
+}
+
+/* style for react-select menu to bring the z-index above the my audit tables*/
+.auditSelectInput__menu-list {
+  z-index: 1 !important;
 }

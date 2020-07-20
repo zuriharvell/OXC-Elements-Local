@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom';
 import Docs from './docs/Docs';
 import * as serviceWorker from './serviceWorker';
 import './index.css';
+import './module/nonjs/oxcvars.css';
 import '../node_modules/highlight.js/styles/ocean.css';
-import { initializeIconLibrary } from './components';
+import initializeIconLibrary from './module/utils/FontAwesomeLibrary';
 
 initializeIconLibrary();
-
 ReactDOM.render(<Docs />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change

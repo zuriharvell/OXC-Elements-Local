@@ -1,5 +1,5 @@
 import React from 'react';
-import Icon from 'oxc/elements/Icon';
+import Icon from 'oxclib/Icon';
 
 /** Code example for Icon: user-circle, light, 2x */
 export default () => {

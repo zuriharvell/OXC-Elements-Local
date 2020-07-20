@@ -1,0 +1,54 @@
+:root {
+  --oxc-line-height: 1px;
+  --oxc-line-color: #b0b0b0;
+  --oxc-border: var(--oxc-line-height) solid var(--oxc-line-color);
+  --oxc-font-family: Lato-Regular, Lato, sans-serif;
+  --oxc-link-color: #6C3B96;
+  --oxc-primaryButton-color: #6C3B96;
+  --oxc-link-text-decoration: underline;
+  --oxc-link-font-family: Lato-Semibold;
+  
+  --oxc-card-background-color: #ffffff;
+  --oxc-card-border-radius: 3px;
+  --oxc-card-box-shadow:  0px 5px 5px #E4E4E4;
+  --oxc-card-padding: 40px 50px;
+  --oxc-card-width: 1080px;
+
+  --oxc-tab-height: 40px;
+  --oxc-tab-width: 215px;
+  --oxc-tab-border: 1px solid #E4E4E4;
+  --oxc-tab-padding: 9px;
+  --oxc-tab-color: #54545;
+  --oxc-tab-color-selected: #37A1B9;
+  --oxc-tab-background: #F3F3F3;
+  --oxc-tab-background-selected: #FFFFFF;
+  --oxc-tab-font-size: 12pt;
+  --oxc-tab-content-border: 1px solid #E4E4E4;
+  --oxc-tab-content-padding: 10px;
+  --oxc-tab-content-width: 985px;
+
+  --oxc-doc-view-head-bottom-padding: 40px;
+  --oxc-doc-view-head-top-padding: 20px;
+  --oxc-doc-view-head-side-paddings: 40px;
+  --oxc-doc-view-icon-spacing: 20px;
+  --oxc-doc-view-head-title-size: 20px;
+  --oxc-doc-view-head-close-link-size: 16px;
+  --oxc-doc-view-head-font: Lato-Regular, Lato, sans-serif;
+  --oxc-doc-view-head-font-weight: 400;
+
+  --oxc-doc-view-text-color: #ffffff;
+  --oxc-doc-view-background-color: #000000;
+  --oxc-doc-view-background-opacity: 0.8;
+  --oxc-doc-view-align-left: left;
+  --oxc-doc-view-align-right: right;
+  --oxc-doc-view-align-center: center;
+
+  --oxc-doc-view-zero-margin: 0;
+  --oxc-doc-view-pointer-cursor: pointer;
+
+  --oxc-doc-view-table-font-color: #54545C;
+  --oxc-doc-view-table-font-size: 16px;
+
+  --oxc-doc-view-icon-color-fail: #800000;
+  --oxc-doc-view-icon-color-pass: #008000;
+}

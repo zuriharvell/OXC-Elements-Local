@@ -1,7 +1,7 @@
 var path = require('path');
 var fse = require('fs-extra');
 
-const files = ['README.md', 'LICENSE'];
+const files = ['README.md', 'LICENSE', '.npmrc'];
 
 Promise.all(files.map((file) => copyFile(file))).then(() =>
   createPackageFile()
@@ -38,6 +38,7 @@ function createPackageFile() {
     .then((data) => JSON.parse(data))
     .then((packageData) => {
       const {
+        name,
         author,
         version,
         description,
@@ -51,7 +52,7 @@ function createPackageFile() {
       } = packageData;
 
       const minimalPackage = {
-        name: 'ps-react',
+        name,
         author,
         version,
         description,

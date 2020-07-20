@@ -299,7 +299,7 @@ module.exports = function (webpackEnv) {
           'scheduler/tracing': 'scheduler/tracing-profiling',
         }),
         ...(modules.webpackAliases || {}),
-        'oxc/elements': path.resolve(__dirname, '../src/components'),
+        oxclib: path.resolve(__dirname, '../src/module/components'),
       },
       plugins: [
         // Adds support for installing with Plug'n'Play, leading to faster installs and adding
